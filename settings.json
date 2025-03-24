@@ -1,0 +1,48 @@
+{
+    "Pixels": {
+        "color_tolerance": 12,
+        "pixel_radius": 34,
+        "search_delay": 0.3,
+
+        "anti_random": true,
+        "anti_random_debounce": 150,
+        "anti_random_delay": 6.2,
+        "anti_random_character": "Enel",
+
+        "auto_update_display_scale": true,
+
+        "other_clicking": true,
+        "other_clicking_delay": 3,
+        "anti_purchase_prompt": true,
+        "anti_main_menu": true
+    
+    },
+
+    "Webhook": {
+        "enable_webhooks": false,
+        "screenshot_full_screen": false,
+        "send_every_minutes": 15,
+        "ping_players": false,
+        "player_id_to_ping": [
+            "123456789"
+        ],
+        "discord_webhooks": [
+            "https://discord.com/api/webhooks/"
+        ]
+    },
+
+    "Bot": {
+        "enable_bot": false,
+        "bot_token": "bot_token",
+        "whitelisted_ids": [
+            "123456789"
+        ],
+        "command_prefixs": [
+            ":",
+            ";"
+        ]
+    },
+    "Other": {
+        "print_config": true
+    }
+}
