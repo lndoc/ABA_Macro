@@ -1,7 +1,7 @@
 {
     "Pixels": {
         "color_tolerance": 12,
-        "pixel_radius": 34,
+        "pixel_radius": 25,
         "search_delay": 0.3,
 
         "anti_random": true,
