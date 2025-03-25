@@ -1,3 +1,4 @@
+import os
 try:
     import asyncio
     import logging
@@ -7,7 +8,6 @@ try:
     from ctypes import windll
     import ctypes
     import json
-    import os
     from io import BytesIO
     from discord_webhook import DiscordWebhook, DiscordEmbed
     import pygetwindow as gw
